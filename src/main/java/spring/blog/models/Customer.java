@@ -9,11 +9,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/**
- * 
- * http://javasampleapproach.com/testing/datajpatest-with-spring-boot
- *
- */
 @Entity
 @Table(name = "customer")
 public class Customer implements Serializable {
