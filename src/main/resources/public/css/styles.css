@@ -1,0 +1,113 @@
+body {
+    padding: 10px;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #040404;
+    text-align: left;
+    background-image: url('/img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+}
+body::after {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.3;
+    z-index: -1;
+}
+body>header {
+	background: rgb(223 235 255 / 50%);
+	padding: 5px;
+	border-radius: 10px;
+}
+
+body>header>a>img, body>header a {
+display: inline-block;
+vertical-align: middle;
+padding: 0px 5px;
+font-size: 1.2em;
+color: #5a0b12;
+}
+
+body>footer {
+background: rgb(223 235 255 / 50%);
+padding: 5px;
+margin: 10px 0;
+text-align: center;
+}
+
+#logged-in-info {
+	float: right;
+	margin-top: 15px;
+	margin-right:5px
+}
+
+#logged-in-info form {
+display: inline-block;
+margin-right: 10px;
+}
+h2.centered {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 80%;
+}
+body>aside {
+  float: right;
+  width: 200px;
+  background: rgb(222 234 255 / 50%);
+  padding: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+body>aside h2 {
+  margin: 5px 0px 15px 0px;
+}
+
+body>aside a {
+  color: #5a0b12;
+  display: block;
+  margin: 5px 0px;
+  text-decoration: none;
+}
+
+body>main:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.register-link {
+    color: #5a0b12;
+}
+
+ul#messages li {
+display: block;
+width: 80%;
+margin: 5px auto;
+text-align: center;
+padding: 5px;
+border-radius: 5px;
+}
+
+ul#messages li.info {
+background: #7f7;
+}
+
+ul#messages li.error {
+background: #d00;
+color: white;
+}
+
+.formError {
+    color: red;
+    font-style: italic;
+}
