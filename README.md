@@ -28,7 +28,18 @@
 
 ## App overview:
 
-![Image alt]()
+ - Home page
+
+![Image alt](src/main/resources/public/img/s1.png)
+
+- Posts
+
+![Image alt](src/main/resources/public/img/s3.png)
+
+- Error
+
+![Image alt](src/main/resources/public/img/s2-error.png)
+
 
 ## Authors
 
