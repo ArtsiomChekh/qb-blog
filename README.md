@@ -1,4 +1,6 @@
-# 
+# Blog
+
+## Features:
 
 - Permissions 
 - Pagination
@@ -6,8 +8,8 @@
 - Password Encryption
 - Roles
 
+## Built With:
 
-#
 - Spring Boot
 - Spring MVC
 - Spring Security
@@ -20,5 +22,17 @@
 - Thymeleaf
 - Bootstrap 4
 
+## Getting Started:
+
+- http://localhost:8090/
+
+## App overview:
+
+![Image alt]()
+
+## Authors
+
+* **Artsiom Chekh**
+* LinkedIn: https://www.linkedin.com/in/artsiom-chekh/
 
 
